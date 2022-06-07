@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:background="@drawable/ripple_effect"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:padding="5dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    <ImageView
+        android:id="@+id/online"
+        android:visibility="gone"
+        android:src="@drawable/green_dot"
+        android:layout_alignBottom="@id/profile_image"
+        android:layout_alignRight="@id/profile_image"
+        android:layout_marginRight="5dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profile_image"
+        android:padding="5dp"
+        android:text="Chetan"
+        android:layout_toLeftOf="@id/date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/massage"
+        android:layout_below="@+id/name"
+        android:text="Chetan"
+        android:layout_toRightOf="@+id/profile_image"
+        android:paddingLeft="7dp"
+        android:layout_marginTop="-2.5dp"
+        android:maxLines="2"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:text="-7:00PM"
+        android:textSize="12dp" />
+
+</RelativeLayout>

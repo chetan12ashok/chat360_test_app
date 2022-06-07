@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252373869525",
+    "project_id": "chat360-chatting-app",
+    "storage_bucket": "chat360-chatting-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252373869525:android:2e3b36cc07e7e8a33d935c",
+        "android_client_info": {
+          "package_name": "com.chat360.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252373869525-h8lg3sc66ji34qmbijtj8jdu6nn4a5fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANztuH0xlN2bL8S1IXVYXQ6usO70loiwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252373869525-h8lg3sc66ji34qmbijtj8jdu6nn4a5fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
